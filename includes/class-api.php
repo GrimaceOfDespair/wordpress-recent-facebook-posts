@@ -189,7 +189,7 @@ class RFBP_API {
 		}
 
 		// Format URL
-		$url = "https://graph.facebook.com/{$endpoint}";
+		$url = "https://graph.facebook.com/v2.11/{$endpoint}";
 
 		// Add access token to data array
 		$data['access_token'] = "{$this->app_id}|{$this->app_secret}";
